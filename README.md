@@ -40,7 +40,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [**DINO-WM**](https://arxiv.org/pdf/2411.04983)              | Patch Features                             | ViT Block                      | Latent Distance                | Forward Prediction      |                              x                               |
 | [**UnO**](https://openaccess.thecvf.com/content/CVPR2024/papers/Agro_UnO_Unsupervised_Occupancy_Fields_for_Perception_and_Forecasting_CVPR_2024_paper.pdf) | Continuous 4D Field                        | Neural ODE / 4D Func           | Occupancy Prob                 | Querying 4D Field       |          [GitHub](https://github.com/waabi-ai/uno)           |
 | [**MC-JEPA**](https://arxiv.org/pdf/2307.12698)              | Decoupled (Motion/Content)                 | Decoupled Transformer          | Latent Distance                | Masked Prediction       |                              x                               |
-| [**PanDora**](https://arxiv.org/pdf/2406.09455)              | Video States + Lang                        | Hybrid Transformer             | Latent Distance                | Autoregressive Gen.     |      [GitHub](https://github.com/Jiannan-Xiang/PanDora)      |
+| [**PanDora**](https://arxiv.org/pdf/2406.09455)              | Video States + Lang                        | Hybrid Transformer             | Latent Distance                | Autoregressive Gen.     |       [GitHub](https://github.com/maitrix-org/Pandora)       |
 | [**LAW**](https://arxiv.org/pdf/2406.08481)                  | Action-aware Visual Latents                | Action-conditioned Transformer | Action-aligned Latent Distance | Forward Prediction      |         [GitHub](https://github.com/BraveGroup/LAW)          |
 | [**T-JEPA**](https://arxiv.org/pdf/2406.12913) / [**HiT-JEPA**](https://arxiv.org/pdf/2507.00028) | Trajectory Segments                        | Trajectory Transformer         | Latent Distance                | Masked Prediction       |                              x                               |
 | <br>***Value Alignment***                                    |                                            |                                |                                |                         |                                                              |
@@ -55,7 +55,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [**MultiPath++**](https://arxiv.org/pdf/2111.14973)          | Object-centric Latents                     | Interaction Graph              | Trajectory Dist.               | Anchor-based Inference  |                              x                               |
 | [**TrafficBots**](https://arxiv.org/pdf/2303.04116)          | Latent Personality Embeddings              | CVAE (Scene-centric)           | ELBO / Prediction              | Conditioned Sampling    |    [GitHub](https://github.com/Zhejun-Zhang/TrafficBots)     |
 | [**CCE-MASAC**](https://scholar.google.com/scholar?q=Modelling+competitive+behaviors+in+autonomous+driving+under+generative+world+model) | Multi-agent Game Latents                   | Markov Game Dynamics           | Nash Equilibrium Objective     | Game-theoretic Rollout  |                              x                               |
-| [**CarFormer**](https://scholar.google.com/scholar?q=Carformer:+Self-driving+with+learned+object-centric+representations) | Implicit Object Slots                      | Autoregressive Trans.          | Trajectory Alignment           | Slot Attention Decoding |      [GitHub](https://github.com/shadihamdan/CarFormer)      |
+| [**CarFormer**](https://scholar.google.com/scholar?q=Carformer:+Self-driving+with+learned+object-centric+representations) | Implicit Object Slots                      | Autoregressive Trans.          | Trajectory Alignment           | Slot Attention Decoding |       [GitHub](https://github.com/Shamdan17/CarFormer)       |
 | [**Wayformer**](https://arxiv.org/pdf/2207.05844)            | Scene Tokens                               | Multi-axis Attention           | Trajectory Alignment           | Scene-centric Decoding  |                              x                               |
 | [**Forecast-MAE**](https://scholar.google.com/scholar?q=Forecast-mae:+Self-supervised+pre-training+for+motion+forecasting+with+masked+autoencoders) | Trajectory Context Tokens                  | Masked Autoencoder             | Trajectory Recon.              | Mask-Predict Decoding   |      [GitHub](https://github.com/jchengai/forecast-mae)      |
 
@@ -89,6 +89,10 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [**Rank2Tell**](https://arxiv.org/pdf/2309.01428)      | 2024     | 50K traj.        | Cam, LiDAR         | Importance ranking, Ego-action  | Reasoning Interpretability |                              x                               |
 | [**AutoVLA**](https://arxiv.org/pdf/2506.13757)        | 2024     | 80K episodes     | Multi-modal        | Multimodal QAs, Policy steps    | VLA Reasoning              |      [GitHub](https://github.com/ucla-mobility/AutoVLA)      |
 
+
+
+
+
 ### TABLE III: 
 
 ### Multidimensional Evaluation Metrics Tailored for Latent World Models
@@ -115,6 +119,12 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [**Route Completion (RC)**](https://arxiv.org/pdf/1711.03938) |    ↑     | Percentage of planned route distance successfully traversed  | Goal-directed execution         |   [GitHub](https://github.com/carla-simulator/carla)    |
 | [**Instruction Fidelity (IF)**](https://arxiv.org/pdf/2312.07488) |    ↑     | Execution alignment with natural language prompts            | LLM-guided Control              |     [GitHub](https://github.com/opendilab/LMDrive)      |
 | [**Reasoning Interpretability (RI)**](https://arxiv.org/pdf/2309.01428) |    ↑     | Consistency of Chain-of-Thought output with human logic      | Action Explainability           |                            x                            |
+
+
+
+
+
+
 
 # Datasets
 
